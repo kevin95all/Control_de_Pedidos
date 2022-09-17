@@ -1,0 +1,29 @@
+digraph Pedidos {
+jon [shape=none, margin=0, label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="2" CELLPADDING="7">
+<TR><TD>Nombre</TD><TD>jon</TD></TR>
+<TR><TD>Cantidad</TD><TD>1</TD></TR>
+<TR><TD>Ingredientes</TD><TD>['Chorizo']</TD></TR>
+<TR><TD>Tiempo</TD><TD>0:3</TD></TR>
+</TABLE>>];
+
+jose [shape=none, margin=0, label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="2" CELLPADDING="7">
+<TR><TD>Nombre</TD><TD>jose</TD></TR>
+<TR><TD>Cantidad</TD><TD>3</TD></TR>
+<TR><TD>Ingredientes</TD><TD>['Costilla', 'Longaniza', 'Chorizo']</TD></TR>
+<TR><TD>Tiempo</TD><TD>0:13</TD></TR>
+</TABLE>>];
+
+luis [shape=none, margin=0, label=<
+<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="2" CELLPADDING="7">
+<TR><TD>Nombre</TD><TD>luis</TD></TR>
+<TR><TD>Cantidad</TD><TD>2</TD></TR>
+<TR><TD>Ingredientes</TD><TD>['Salami', 'Salami']</TD></TR>
+<TR><TD>Tiempo</TD><TD>0:3.0</TD></TR>
+</TABLE>>];
+
+jose->jon
+luis->jose
+Fin_Pedidos->luis
+}

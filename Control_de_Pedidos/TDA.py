@@ -5,7 +5,7 @@ from colorama import Fore
 class Cola:
 
     def __init__(self):
-        self.ini = None
+        self.ini = None  # -----> Nodo inicial
 
     def lista_vacia(self):
         if self.ini is None:  # -----> Si self.ini = None entonces...

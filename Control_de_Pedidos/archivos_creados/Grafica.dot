@@ -1,5 +1,0 @@
-digraph Pedidos{
-Nombre_Kevin__Pizzas_2->Nombre_calificacion__Pizzas_4;
-Nombre_orden3__Pizzas_3->Nombre_Kevin__Pizzas_2;
-Fin_de_la_cola->Nombre_orden3__Pizzas_3;
-}
